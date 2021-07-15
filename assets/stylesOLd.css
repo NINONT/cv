@@ -1,29 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css');
 
 body {
   background-color: #EAF6F6;
 }
 
 hr {
+  border-background-color: #EAF6F6;
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
   width: 5%;
-}
 
-h1 {
-  font-family: 'Zen Loop', fantasy;
-  font-size: 60px;
-  color: #66BFBF;
-  font-weight: bolder;
-}
-
-h3 {
-  font-family: 'Zen Loop', cursive;
-  font-size: 30px;
-  color: #66BFBF;
-  font-weight: bold;
 }
 
 .fontstyle {
@@ -46,5 +36,4 @@ h3 {
 .ProfilePic {
   width: 200px;
   height: 200px;
-  border-radius: 75%
 }
